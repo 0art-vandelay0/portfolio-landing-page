@@ -2,6 +2,7 @@ body {
     font-family: work-sans, sans-serif;
     background-color: black;
     color: rgb(235, 230, 230);
+    text-align: center;
 }
 
 .img-div {
@@ -29,13 +30,6 @@ h2 {
     font-size: 35px;
     text-align: center;
     padding-top: 50px;
-    font-family: sans-serif;
-    font-weight: 400;
-    margin-top: 5px;
-}
-
-.h1 {
-    font-size: 47px;
     font-family: sans-serif;
     font-weight: 400;
     margin-top: 5px;
@@ -112,11 +106,11 @@ h2 {
 }
 
 .education h3 {
-    font-size: 20pxpx;
+    font-size: 20px;
     display: inline-block;
-    background-color: #8d6788;
+    background-color: #765771;
     border: 3px solid #e8addd;
-    padding: 6px;
+    padding: 15px;
     margin-top: 50px;
 }
 
@@ -135,23 +129,25 @@ h2 {
     color: #ffffff;
 }
 
+.interests h3 {
+    font-size: 20pxpx;
+    display: inline-block;
+    background-color: #445d4e;
+    border: 3px solid #cee2cf;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.like {
+    display: inline-block;
+    padding-left: 0;
+}
+
+.interests ol li {
+    text-align: left;
+}
+
 .bold-purp {
     font-weight: bold;
     color: rgb(202, 161, 193);
-}
-
-
-@media (max-width: 767px) {
-    body {
-        font-size: 14px;
-    }
-
-    .aboutMe p {
-        width: 100%;
-    }
-
-    .project {
-        width: 90%;
-        margin: 10px;
-    }
 }
