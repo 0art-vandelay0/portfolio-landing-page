@@ -4,7 +4,7 @@
 
 #### Casey Hill's Profile
 
-#### GitHub Pages: 
+#### GitHub Pages: https://0art-vandelay0.github.io/portfolio-landing-page/
 
 ## Technologies Used
 
