@@ -37,8 +37,15 @@ li {
 }
 
 .project li {
-    float: left;
-    border: 1px solid #000;
+    display: inline-block;
+    border: 2px solid #695166;
+    padding: 5px;
+}
+
+.project a {
+    color: #eb93ed;
+    display: inline-block;
+    border: 1px solid #a1a1a1;
     padding: 5px;
 }
 
