@@ -35,6 +35,10 @@ h2 {
     margin-top: 5px;
 }
 
+a {
+    color: #d396c8;
+}
+
 .name {
     display: inline-block;
     font-size: 60px;
@@ -46,7 +50,6 @@ h2 {
 
 .aboutMe {
     text-align: center;
-
     font-family: 'Courier New', Courier, monospace;
     display: inline-block;
     margin-top: 30px;
@@ -62,7 +65,7 @@ h2 {
     padding: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
-    width: 40%;
+    width: 45%;
 }
 
 .project-section {
