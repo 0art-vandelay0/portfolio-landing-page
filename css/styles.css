@@ -104,15 +104,28 @@ h2 {
     width: 50%;
 }
 
+.education {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+
 .education h3 {
     font-size: 20pxpx;
     display: inline-block;
     background-color: #8d6788;
     border: 3px solid #e8addd;
     padding: 6px;
+    margin-top: 50px;
+}
+
+.background {
+    text-align: center;
 }
 
 .education h4 {
+    margin-top: 50px;
     color: #93b79a;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -120,7 +133,6 @@ h2 {
 
 .education p {
     color: #ffffff;
-    text-align: left;
 }
 
 .bold-purp {
