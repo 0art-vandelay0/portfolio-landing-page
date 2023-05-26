@@ -4,6 +4,18 @@ body {
     color: rgb(235, 230, 230);
 }
 
+.img-div {
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+}
+
+.img-div img {
+    vertical-align: middle;
+    height: 200px;
+    width: 200px;
+}
+
 h1 {
     width: 100%;
     text-align: center;
@@ -40,6 +52,8 @@ h2 {
 
 .aboutMe {
     text-align: center;
+
+    font-family: 'Courier New', Courier, monospace;
     display: inline-block;
     margin-top: 30px;
     margin-bottom: 20px;
