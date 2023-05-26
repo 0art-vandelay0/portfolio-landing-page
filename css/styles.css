@@ -14,13 +14,15 @@ h1 {
 }
 
 h2 {
+    font-size: 35px;
     text-align: center;
-    font-size: 30px;
+    padding-top: 50px;
     font-family: sans-serif;
-    font-weight: 200;
+    font-weight: 400;
+    margin-top: 5px;
 }
 
-.hi {
+.h1 {
     font-size: 47px;
     font-family: sans-serif;
     font-weight: 400;
@@ -57,7 +59,6 @@ h2 {
 
 .project-section {
     text-align: center;
-    width: 100%
 }
 
 .project {
@@ -78,14 +79,53 @@ h2 {
     padding: 5px;
 }
 
+.project p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .project a {
     font-size: 20px;
     color: #d396d4;
-    border: 1px solid #a1a1a1;
     padding: 5px;
     width: 50%;
 }
 
-.background p {
+.education h3 {
+    font-size: 20pxpx;
     display: inline-block;
+    background-color: #8d6788;
+    border: 3px solid #e8addd;
+    padding: 6px;
+}
+
+.education h4 {
+    color: #93b79a;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.education p {
+    color: #ffffff;
+    text-align: left;
+}
+
+.bold-purp {
+    font-weight: bold;
+    color: rgb(202, 161, 193);
+}
+
+
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+
+    .aboutMe p {
+        width: 100%;
+    }
+
+    .project {
+        width: 90%;
+        margin: 10px;
+    }
 }
