@@ -24,7 +24,7 @@ This page is my personal portfolio. It has a short profile about myself along wi
 
 ## Known Bugs
 
-* No known bugs
+* photo does not appear
 
 ## License
 
