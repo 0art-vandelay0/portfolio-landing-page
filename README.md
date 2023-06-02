@@ -24,7 +24,7 @@ This page is my personal portfolio. It has a short profile about myself along wi
 
 ## Known Bugs
 
-* Text may not align
+No known bugs
 
 ## License
 
