@@ -135,6 +135,26 @@ ul {
     color: #ffffff;
 }
 
+.organizations {
+    margin-top: 50px;
+    color: #93b79a;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.organizations p {
+    color: #ffffff;
+}
+
+.organizations h3 {
+    font-size: 20px;
+    display: inline-block;
+    background-color: #765771;
+    border: 3px solid #e8addd;
+    padding: 15px;
+    margin-top: 50px;
+}
+
 .interests h3 {
     font-size: 20px;
     display: inline-block;
@@ -176,4 +196,12 @@ ul {
 .bold-purp {
     font-weight: bold;
     color: rgb(202, 161, 193);
+}
+
+.contact {
+    font-size: 24px;
+}
+
+.email {
+    font-size: 13px;
 }
