@@ -8,19 +8,19 @@
 
 ## Technologies Used
 
-* VS Code
-* HTML
-* CSS
+-   VS Code
+-   HTML
+-   CSS
 
 ## Description
 
-This page is my personal portfolio. It has a short profile about myself along with my bacground and some hobbies.
+This page is my personal portfolio. It has a short profile about myself along with my background and some hobbies.
 
 ## Setup/Installation Requirements
 
-* Clone this repo
-* Open in your IDE or command line
-* Run in Live Server or your local server
+-   Clone this repo
+-   Open in your IDE or command line
+-   Run in Live Server or your local server
 
 ## Known Bugs
 
