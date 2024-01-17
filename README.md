@@ -18,6 +18,8 @@ This page is my personal portfolio. It has a short profile about myself along wi
 
 ## Setup/Installation Requirements
 
+-   Use the GitHub Pages link [HERE](https://0art-vandelay0.github.io/portfolio-landing-page/)
+
 -   Clone this repo
 -   Open in your IDE or command line
 -   Run in Live Server or your local server
