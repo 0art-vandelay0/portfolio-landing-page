@@ -33,7 +33,7 @@ h2 {
     padding-top: 100px;
     font-family: sans-serif;
     font-weight: 400;
-    margin-top: 20px;
+    margin-top: 2.5em;
 }
 
 h2.contact {
@@ -146,8 +146,32 @@ ul {
     font-weight: 500;
 }
 
+.education h4 {
+    margin-top: 8em !important; 
+}
+
+.education h4:first-of-type {
+    margin-top: 2em !important;
+}
+
+.education .background-section:last-of-type {
+    margin-bottom: 10em !important;
+}
+
 .background-section {
     margin: 60px;
+}
+
+div .background-section {
+    margin-bottom: 7em;
+}
+
+.background h4 {
+    margin-top: 40px;
+}
+
+.background h4 {
+    font-size: 25px;
 }
 
 .section-margin-bottom {

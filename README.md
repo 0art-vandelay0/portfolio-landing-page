@@ -8,19 +8,21 @@
 
 ## Technologies Used
 
-* VS Code
-* HTML
-* CSS
+-   VS Code
+-   HTML
+-   CSS
 
 ## Description
 
-This page is my personal portfolio. It has a short profile about myself along with my bacground and some hobbies.
+This page is my personal portfolio. It has a short profile about myself along with my background and some hobbies.
 
 ## Setup/Installation Requirements
 
-* Clone this repo
-* Open in your IDE or command line
-* Run in Live Server or your local server
+-   Use the GitHub Pages link [HERE](https://0art-vandelay0.github.io/portfolio-landing-page/)
+
+-   Clone this repo
+-   Open in your IDE or command line
+-   Run in Live Server or your local server
 
 ## Known Bugs
 
