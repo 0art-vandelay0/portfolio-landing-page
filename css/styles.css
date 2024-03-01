@@ -37,7 +37,7 @@ h2 {
 }
 
 h2.contact {
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
 a {
@@ -107,6 +107,11 @@ ul {
     color: #e0bae0;
     padding: 5px;
     width: 50%;
+}
+
+#github-link {
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .education {
@@ -229,7 +234,7 @@ div .background-section {
 .centered-li {
     text-align: left;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
     list-style-position: inside;
     display: inline-block;
     list-style-type: none;
