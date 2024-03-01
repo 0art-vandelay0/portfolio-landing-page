@@ -271,3 +271,50 @@ div .background-section {
 .email {
     font-size: 13px;
 }
+
+@media (max-width: 767px) {
+    .project {
+        width: 100%;
+        margin: 15px 0;
+        display: block;
+    }
+    .aboutMe p, .background p {
+        width: calc(100% - 30px);
+        margin: 0 auto;
+        padding: 15px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .background-section p {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px 0px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    h2, .background h2, .background h3, .background h4 {
+        text-align: center;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .background h3 {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    .background-section, .education, .organizations {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    .new-line {
+        display: block;
+        margin-top: 5px;
+    }
+    .hidden {
+        display: none;
+    }
+}
+
