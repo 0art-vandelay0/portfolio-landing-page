@@ -37,7 +37,7 @@ h2 {
 }
 
 h2.contact {
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
 a {
@@ -107,6 +107,11 @@ ul {
     color: #e0bae0;
     padding: 5px;
     width: 50%;
+}
+
+#github-link {
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .education {
@@ -229,7 +234,7 @@ div .background-section {
 .centered-li {
     text-align: left;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
     list-style-position: inside;
     display: inline-block;
     list-style-type: none;
@@ -266,3 +271,64 @@ div .background-section {
 .email {
     font-size: 13px;
 }
+
+@media (max-width: 767px) {
+    body {
+        margin: 50px; /* Reduced margin for mobile */
+    }
+    .project {
+        width: 100%;
+        margin: 25px 0;
+        display: block;
+    }
+    .aboutMe p, .background p {
+        width: calc(100% - 20px);
+        margin: 0 auto;
+        padding: 15px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .background-section p {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px 0px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    h2, .background h2, .background h3, .background h4 {
+        text-align: center;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .background h3 {
+        text-align: center;
+        width: 80%;
+        margin: 5px auto;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    .background-section, .education, .organizations {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    .interests h3 {
+        margin: 50px auto 0;
+        width: 75%;
+        padding: 15px;
+        margin-top: 25px;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        box-sizing: border-box;
+    }
+    .new-line {
+        display: block;
+        margin-top: 5px;
+    }
+    .hidden {
+        display: none;
+    }
+}
+
