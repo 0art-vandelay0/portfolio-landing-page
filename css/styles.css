@@ -273,13 +273,16 @@ div .background-section {
 }
 
 @media (max-width: 767px) {
+    body {
+        margin: 50px; /* Reduced margin for mobile */
+    }
     .project {
         width: 100%;
-        margin: 15px 0;
+        margin: 25px 0;
         display: block;
     }
     .aboutMe p, .background p {
-        width: calc(100% - 30px);
+        width: calc(100% - 20px);
         margin: 0 auto;
         padding: 15px;
         box-sizing: border-box;
@@ -299,8 +302,8 @@ div .background-section {
     }
     .background h3 {
         text-align: center;
-        width: 100%;
-        margin: 0 auto;
+        width: 80%;
+        margin: 5px auto;
         padding: 0 15px;
         box-sizing: border-box;
     }
@@ -308,6 +311,17 @@ div .background-section {
         width: 100%;
         box-sizing: border-box;
         margin: 0 auto;
+    }
+
+    .interests h3 {
+        margin: 50px auto 0;
+        width: 75%;
+        padding: 15px;
+        margin-top: 25px;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        box-sizing: border-box;
     }
     .new-line {
         display: block;
